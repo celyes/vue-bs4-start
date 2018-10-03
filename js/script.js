@@ -1,13 +1,16 @@
-var zapp = new Vue({
-    el: "#container", 
+
+// Corrupt
+var app = new Vue({
+    el: "#container",
     data: {
-        name: "Ilyes",
-        age: 23,
-        message: "Hello from vue"
+        info: "Vue.js and Bootstrap 4",
+        link: "https://github.com/celyes"
     },
     methods: {
-        hello: function(){
-            return "Hello, i'm "+ this.name + ", i'm " + this.age + " years old and i say : " + this.message
+        greeting: function(){
+            return "This is a simple " + this.info + " starter template."
         }
     }
 });
+
+// ok
